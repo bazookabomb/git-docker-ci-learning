@@ -40,5 +40,3 @@
 - **Repo‑Struktur:** Quellcode, `Dockerfile`, `docker-compose.yml`, `requirements.txt`, `README.md`
 - **CI:** `.github/workflows/ci.yml` mit Tests + Build
 - **Dokumentation:** Setup‑Schritte, Troubleshooting, Usage
-
-

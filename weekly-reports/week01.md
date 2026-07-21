@@ -41,11 +41,9 @@
 
   - Anfangs Unsicherheit, wann Rebase statt Merge sinnvoll ist
   - Merge-Konflikte traten auf — Workflow zum sauberen Lösen noch nicht vollständig automatisiert
-  
+
   ## Nächste Schritte
 
   ---
 
   - Entwicklungsumgebungen & Tools
-
-
