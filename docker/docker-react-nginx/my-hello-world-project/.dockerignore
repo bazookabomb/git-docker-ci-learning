@@ -1,0 +1,44 @@
+```dockerignore
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+
+# Docker files (optional, wenn nicht benötigt)
+.dockerignore
+
+# Coverage
+coverage/
+
+# Vite cache
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+```
