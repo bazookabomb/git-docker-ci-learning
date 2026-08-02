@@ -9,6 +9,13 @@ services:
     depends_on:
       redis:
         condition: service_healthy
+    develop:
+      watch:
+        - action: sync+restart
+          path: .
+          target: /code
+        - action: rebuild
+          path: requirements.txt
 
   redis:
     image: redis:alpine

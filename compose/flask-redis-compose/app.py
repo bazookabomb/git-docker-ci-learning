@@ -12,4 +12,4 @@ cache = redis.Redis(
 @app.route("/")
 def hello():
     count = cache.incr("hits")
-    return f"Hello from Docker! I have been seen {count} time(s).\n"
+    return f"Hello World from Docker! I have been seen {count} time(s).\n"
