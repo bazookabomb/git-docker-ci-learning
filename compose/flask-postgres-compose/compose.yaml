@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "${APP_PORT}:5000"
+      - 8000:5000
     environment:
       DATABASE_URL: postgres://user:password@db:5432/mydatabase
     depends_on:
